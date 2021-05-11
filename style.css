@@ -1,0 +1,96 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  color: mar;
+  background-color: beige;
+  text-align: center;
+  font-family: 'Open Sans'
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+h1 {
+  font-weight: 20px;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  align: auto;
+}
+
+img {
+  border-radius: 50%;
+  width: 270px;
+  border: 40px solid pink;
+  align: auto;
+}
+
+p {
+  display: inline-block;
+  position: relative;
+  text-align: auto;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+h2 {
+  color: #0000ff;
+  text-align: center;
+  text-shadow: 400px;
+  font-size: 40px;
+}
+
+.boxed {
+  background-color: #ffffe6;
+  margin: 20px auto;
+  width: 900px;
+  padding: 30px;
+  border: 50px;
+  text-align: center;
+  box-shadow: 300px ;
+  border-radius: 60px;
+  }
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.fab:hover {
+  opacity: 00;
+}
+
+
+.fab-linkedin {
+  background: #129;
+  color: white;
+}
+
+
+.fab-twitter-square {
+  background: #55ACEE;
+  color: white;
+}
+
+.fab-instagram {
+  background: #E91E63
+  color: pink;
+
+
